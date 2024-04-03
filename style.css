@@ -1,0 +1,211 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    background-color: #1523ff;
+    background-size :cover;
+    font-weight :bold;
+    
+}
+.navbar h1
+{
+    font-size:1.7em;
+    color :#d9ff95;
+    font-family :'italic';
+}
+.navbar-links {
+    display: flex;   
+    justify-content: center; 
+    gap: 20px;    
+    font-size :1.4em;
+}
+.navbar a {
+    color: #fff;           
+    text-decoration: none;  
+    padding: 5px 20px;    
+}
+.navbar a:hover {
+    background-color: #555; 
+}
+.navbar a.active {
+    color: #f8ff2b           
+}
+p
+{
+    font-size:1.2em
+}
+h2{
+    color: darkblue; 
+    font-weight: bold;
+    border-bottom: 2px solid #e74c3c
+}
+h3{
+    color: green;
+    font-weight: semi-bold;
+}
+body,html{
+     background :white;
+    font-family: 'Arial';
+    font-size:1em;
+    margin:10px;
+    }
+hr{
+     border-bottom: 1.2px solid #e74c3c
+}
+.box p
+{
+    font-weight :none;
+    color:black;
+    font-size:1.1em;
+}
+a.path{
+    padding: 3px 7px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    background-color: brown;
+    border-radius: 10px;
+    font-size :1em
+}
+a.home{
+    padding: 3px 7px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    background-color:#ff153f;
+    border-radius: 10px;
+    font-size :1em
+   }
+a.mobile{
+    padding: 3px 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-color:#2bd5ff;
+    border-radius: 10px;
+   }
+  img.resize {
+  width: 390px;   
+  height:250px; 
+   }
+ol{
+       font-size : 1.2em
+   }
+ ul
+ {
+     font-size:1.2em
+ }
+footer{
+padding:0.42px;
+  color:#ffffff;
+  background-color:#ffbd15;
+  text-align: center;
+  margin-top:10px;
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+h1.h1
+  {
+   color : darkgreen;
+   border-bottom: 1px solid red;
+  }
+h2.h2
+        {
+            color : green
+        }
+div.heading{
+    font-size:0.5em
+}
+h2.main{
+    color:#ff407e;
+    border-bottom: 3px solid red;
+}
+.Edu ol li {
+    color: #af15ff;
+    margin-left: 0; 
+    padding-left: 0;
+    font-weight: bold;
+    font-size :1.3em
+}
+.Edu ol p
+{
+    font-size: 1em;
+}
+.Edu .Path1
+{
+    font-size:1em;
+    color : green;
+    font-weight : bold;
+    font-family :'italic'
+}
+
+#dataList a {
+    display: inline-block;  
+    padding: 1px 5px;       
+    background-color:#fff1006a;
+    color: #4063ff;
+    text-decoration: none;  
+    border-radius: 10px;
+}
+
+
+#dataList a:hover {
+    color: white;
+}
+.footer 
+{
+    font-size: 1em;
+    text-align: center;
+    color :#121212;
+}
+.contact-info img {
+    margin-bottom: 10px;
+}
+
+.phone, .email {
+    display: flex;
+    margin: 5px 0;
+}
+
+.phone a, .email a {
+    text-decoration: none; 
+    color: inherit; 
+    display: flex;
+    align-items: center;
+    font-weight:bold;
+}
+
+.phone img, .email img {
+    margin-right: 5px;
+    vertical-align: middle;  
+}
+
+.get-started-btn {
+    text-decoration: none;
+    padding: 15px 30px;
+    background-color: #FF6347; 
+    color: #121212; 
+    border-radius: 50px;
+    font-weight: bold;
+    transition: transform 0.3s, box-shadow 0.3s;
+    }
+    #search-bar {
+         width: 100%;
+         padding: 10px;
+        border: 2px solid #333; 
+        border-radius: 5px; 
+  font-size: 16px; 
+  outline: none; 
+  
+  transition: border-color 0.3s; 
+
+
+  background-color: #f5f5f5;
+  color: #333;
+}
+#search-bar:focus {
+  border-color: #007bff;
+}
