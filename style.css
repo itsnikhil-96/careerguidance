@@ -16,7 +16,7 @@
 .navbar-links {
     display: flex;   
     justify-content: center; 
-    gap: 20px;    
+    gap: 15px;    
     font-size :1.4em;
 }
 .navbar a {
@@ -57,6 +57,7 @@ hr{
     font-weight :none;
     color:black;
     font-size:1.1em;
+    overflow:scroll;
 }
 a.path{
     padding: 3px 7px;
